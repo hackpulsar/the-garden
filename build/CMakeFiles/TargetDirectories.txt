@@ -1,0 +1,3 @@
+/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles/TheGarden.dir
+/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles/edit_cache.dir
+/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles/rebuild_cache.dir
