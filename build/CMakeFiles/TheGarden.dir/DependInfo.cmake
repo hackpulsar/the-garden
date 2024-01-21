@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp" "CMakeFiles/TheGarden.dir/core.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/core.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp" "CMakeFiles/TheGarden.dir/log.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/log.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp" "CMakeFiles/TheGarden.dir/main.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/main.cpp.o.d"
+  "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp" "CMakeFiles/TheGarden.dir/texture_manager.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/texture_manager.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile.cpp" "CMakeFiles/TheGarden.dir/tile.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/tile.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile_map.cpp" "CMakeFiles/TheGarden.dir/tile_map.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/tile_map.cpp.o.d"
   )

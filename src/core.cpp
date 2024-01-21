@@ -10,7 +10,7 @@ namespace Core
 {
 
 Core::Core()
-    : m_pRenderer(nullptr), m_pWindow(nullptr), m_bRunning(false), m_pGameData(new GameData())
+    : m_pRenderer(nullptr), m_pWindow(nullptr), m_bRunning(false), m_pGameData(std::make_shared<GameData>())
 { }
 
 Core::~Core()
@@ -50,6 +50,10 @@ bool Core::Init()
 
     // TODO: init game data
     m_pGameData->m_TileMap = new TileMap();
+    m_pGameData->m_TextureManager = new TextureManager();
+
+    // Loading all textures
+    m_pGameData->m_TextureManager->load("dirt", "../res/dirt.png", m_pRenderer);
 
     return true;
 }
@@ -96,7 +100,7 @@ void Core::Render()
     SDL_SetRenderDrawColor(m_pRenderer, 30, 30, 30, 255);
     SDL_RenderClear(m_pRenderer);
 
-    m_pGameData->m_TileMap->Render(m_pRenderer);
+    m_pGameData->m_TileMap->Render(m_pRenderer, *m_pGameData->m_TextureManager);
 
     SDL_RenderPresent(m_pRenderer);
 }

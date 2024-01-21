@@ -3,9 +3,6 @@
 #include "definitions.hpp"
 #include <_types/_uint16_t.h>
 
-#include "log.h"
-#include <string>
-
 namespace Core
 {
 
@@ -30,7 +27,7 @@ TileMap::~TileMap()
     m_TileMap.clear();
 }
 
-void TileMap::Render(SDL_Renderer* pRenderer)
+void TileMap::Render(SDL_Renderer* pRenderer, const TextureManager& textureManager)
 {
     // Render every tile
     for (int i = 0; i < TILE_MAP_SIZE; i++)
@@ -44,8 +41,9 @@ void TileMap::Render(SDL_Renderer* pRenderer)
             };
 
             // Debug purposes only
-            SDL_SetRenderDrawColor(pRenderer, rand() % 255, rand() % 255, rand() % 255, 255);
-            SDL_RenderFillRect(pRenderer, &rect);
+            SDL_RenderCopy(pRenderer, textureManager.get("dirt"), NULL, &rect);
+            //SDL_SetRenderDrawColor(pRenderer, rand() % 255, rand() % 255, rand() % 255, 255);
+            //SDL_RenderFillRect(pRenderer, &rect);
         }
     }
 }

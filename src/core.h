@@ -2,6 +2,7 @@
 #define CORE_H
 
 #include <SDL2/SDL.h>
+#include <memory>
 
 #include "game_data.hpp"
 
@@ -26,7 +27,7 @@ private:
 
     bool m_bRunning;
 
-    GameData* m_pGameData;
+    std::shared_ptr<GameData> m_pGameData;
 
 };
 

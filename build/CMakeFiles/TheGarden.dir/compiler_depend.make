@@ -758,6 +758,7 @@ CMakeFiles/TheGarden.dir/core.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Proje
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/definitions.hpp \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/game_data.hpp \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/log.h \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/texture_manager.h \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ticks_management.hpp \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/tile.h \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/tile_map.h \
@@ -3198,6 +3199,8 @@ CMakeFiles/TheGarden.dir/tile_map.cpp.o: /Users/hackpulsar/Documents/Code/C++\ P
 
 /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_rwops.h:
 
+/opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_render.h:
+
 /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_pixels.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
@@ -3623,8 +3626,6 @@ CMakeFiles/TheGarden.dir/tile_map.cpp.o: /Users/hackpulsar/Documents/Code/C++\ P
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
-
-/opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2/SDL_render.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
 
@@ -4319,6 +4320,8 @@ CMakeFiles/TheGarden.dir/tile_map.cpp.o: /Users/hackpulsar/Documents/Code/C++\ P
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/voidify.h:
+
+/Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/texture_manager.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_set_difference.h:
 

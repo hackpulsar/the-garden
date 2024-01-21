@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/Cellar/cmake/3.28.0/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -201,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+texture_manager.o: texture_manager.cpp.o
+.PHONY : texture_manager.o
+
+# target to build an object file
+texture_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/texture_manager.cpp.o
+.PHONY : texture_manager.cpp.o
+
+texture_manager.i: texture_manager.cpp.i
+.PHONY : texture_manager.i
+
+# target to preprocess a source file
+texture_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/texture_manager.cpp.i
+.PHONY : texture_manager.cpp.i
+
+texture_manager.s: texture_manager.cpp.s
+.PHONY : texture_manager.s
+
+# target to generate assembly for a file
+texture_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/texture_manager.cpp.s
+.PHONY : texture_manager.cpp.s
+
 tile.o: tile.cpp.o
 .PHONY : tile.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... texture_manager.o"
+	@echo "... texture_manager.i"
+	@echo "... texture_manager.s"
 	@echo "... tile.o"
 	@echo "... tile.i"
 	@echo "... tile.s"

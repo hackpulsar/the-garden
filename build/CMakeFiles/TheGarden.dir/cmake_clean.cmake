@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TheGarden.dir/log.cpp.o.d"
   "CMakeFiles/TheGarden.dir/main.cpp.o"
   "CMakeFiles/TheGarden.dir/main.cpp.o.d"
+  "CMakeFiles/TheGarden.dir/texture_manager.cpp.o"
+  "CMakeFiles/TheGarden.dir/texture_manager.cpp.o.d"
   "CMakeFiles/TheGarden.dir/tile.cpp.o"
   "CMakeFiles/TheGarden.dir/tile.cpp.o.d"
   "CMakeFiles/TheGarden.dir/tile_map.cpp.o"
