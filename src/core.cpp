@@ -48,12 +48,13 @@ bool Core::Init()
         return false;
     }
 
-    // TODO: init game data
     m_pGameData->m_TileMap = new TileMap();
     m_pGameData->m_TextureManager = new TextureManager();
 
     // Loading all textures
     m_pGameData->m_TextureManager->load("dirt", "../res/dirt.png", m_pRenderer);
+
+    m_pGameData->m_TileMap->Init(*m_pGameData->m_TextureManager);
 
     return true;
 }
@@ -100,7 +101,7 @@ void Core::Render()
     SDL_SetRenderDrawColor(m_pRenderer, 30, 30, 30, 255);
     SDL_RenderClear(m_pRenderer);
 
-    m_pGameData->m_TileMap->Render(m_pRenderer, *m_pGameData->m_TextureManager);
+    m_pGameData->m_TileMap->Render(m_pRenderer);
 
     SDL_RenderPresent(m_pRenderer);
 }

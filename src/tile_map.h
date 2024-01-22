@@ -15,7 +15,9 @@ public:
     TileMap();
     ~TileMap();
 
-    void Render(SDL_Renderer* pRenderer, const TextureManager& textureManager);
+    void Init(const TextureManager& textureManager);
+
+    void Render(SDL_Renderer* pRenderer);
 
 private:
     std::vector<std::vector<Tile>> m_TileMap;

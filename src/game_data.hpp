@@ -11,6 +11,12 @@ struct GameData
 {
     TileMap* m_TileMap = nullptr;
     TextureManager* m_TextureManager = nullptr;
+
+    ~GameData()
+    {
+        delete m_TileMap;
+        delete m_TextureManager;
+    }
 };
 
 }

@@ -1,12 +1,23 @@
 #include "tile_map.h"
 
 #include "definitions.hpp"
+#include "texture_manager.h"
 #include <_types/_uint16_t.h>
 
 namespace Core
 {
 
 TileMap::TileMap()
+{  }
+
+TileMap::~TileMap()
+{
+    for (auto& row : m_TileMap)
+        row.clear();
+    m_TileMap.clear();
+}
+
+void TileMap::Init(const TextureManager& textureManager)
 {
     // Set every tile's coordinates
     for (int i = 0; i < TILE_MAP_SIZE; i++)
@@ -18,16 +29,12 @@ TileMap::TileMap()
 
             m_TileMap[i][j].m_MapPos = vec2<uint16_t>{ uint16_t(j), uint16_t(i) };
             m_TileMap[i][j].m_ScreenPos = vec2<int>{ j * TILE_SCREEN_SIZE, i * TILE_SCREEN_SIZE };
+            m_TileMap[i][j].m_pTexture = textureManager.get("dirt");
         }
     }
 }
 
-TileMap::~TileMap()
-{
-    m_TileMap.clear();
-}
-
-void TileMap::Render(SDL_Renderer* pRenderer, const TextureManager& textureManager)
+void TileMap::Render(SDL_Renderer* pRenderer)
 {
     // Render every tile
     for (int i = 0; i < TILE_MAP_SIZE; i++)
@@ -41,7 +48,7 @@ void TileMap::Render(SDL_Renderer* pRenderer, const TextureManager& textureManag
             };
 
             // Debug purposes only
-            SDL_RenderCopy(pRenderer, textureManager.get("dirt"), NULL, &rect);
+            SDL_RenderCopy(pRenderer, m_TileMap[i][j].m_pTexture, NULL, &rect);
             //SDL_SetRenderDrawColor(pRenderer, rand() % 255, rand() % 255, rand() % 255, 255);
             //SDL_RenderFillRect(pRenderer, &rect);
         }
