@@ -1,19 +1,24 @@
 #ifndef TEXTURE_MANAGER_H
 #define TEXTURE_MANAGER_H
 
-#include <SDL2/SDL_render.h>
 #include <unordered_map>
 #include <string>
+
+#include "texture.hpp"
 
 namespace Core
 {
 
 struct TextureManager
 {
-    std::unordered_map<std::string, SDL_Texture*> m_Textures;
+    std::unordered_map<std::string, SDL_Texture*> m_Spritesheets;
+    std::unordered_map<std::string, Texture> m_TexturesRects;
 
-    void load(const std::string& key, const std::string& sPath, SDL_Renderer* pRenderer);
-    SDL_Texture* get(const std::string& key) const;
+    void load_spritesheet(const std::string& sKey, const std::string& sPath, SDL_Renderer* pRenderer);
+    void load_texture(const std::string& sKey, const std::string& sSpritesheetKey, SDL_Rect clip);
+
+    SDL_Texture* get_spritesheet(const std::string& sKey) const;
+    Texture get_texture(const std::string& sKey) const;
 
     ~TextureManager();
 };

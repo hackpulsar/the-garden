@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/bui
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/Cellar/cmake/3.28.0/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/Cellar/cmake/3.28.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -225,30 +225,6 @@ texture_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/texture_manager.cpp.s
 .PHONY : texture_manager.cpp.s
 
-tile.o: tile.cpp.o
-.PHONY : tile.o
-
-# target to build an object file
-tile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/tile.cpp.o
-.PHONY : tile.cpp.o
-
-tile.i: tile.cpp.i
-.PHONY : tile.i
-
-# target to preprocess a source file
-tile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/tile.cpp.i
-.PHONY : tile.cpp.i
-
-tile.s: tile.cpp.s
-.PHONY : tile.s
-
-# target to generate assembly for a file
-tile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/tile.cpp.s
-.PHONY : tile.cpp.s
-
 tile_map.o: tile_map.cpp.o
 .PHONY : tile_map.o
 
@@ -294,9 +270,6 @@ help:
 	@echo "... texture_manager.o"
 	@echo "... texture_manager.i"
 	@echo "... texture_manager.s"
-	@echo "... tile.o"
-	@echo "... tile.i"
-	@echo "... tile.s"
 	@echo "... tile_map.o"
 	@echo "... tile_map.i"
 	@echo "... tile_map.s"

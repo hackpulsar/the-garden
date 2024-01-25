@@ -1,37 +1,31 @@
 [
 {
   "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/core.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/core.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp\"",
   "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp",
   "output": "CMakeFiles/TheGarden.dir/core.cpp.o"
 },
 {
   "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/log.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/log.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp\"",
   "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp",
   "output": "CMakeFiles/TheGarden.dir/log.cpp.o"
 },
 {
   "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/main.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/main.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp\"",
   "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp",
   "output": "CMakeFiles/TheGarden.dir/main.cpp.o"
 },
 {
   "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/texture_manager.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/texture_manager.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp\"",
   "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp",
   "output": "CMakeFiles/TheGarden.dir/texture_manager.cpp.o"
 },
 {
   "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/tile.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile.cpp\"",
-  "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile.cpp",
-  "output": "CMakeFiles/TheGarden.dir/tile.cpp.o"
-},
-{
-  "directory": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/tile_map.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile_map.cpp\"",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/opt/homebrew/Cellar/sdl2/2.28.5/include -I\"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/../extern/sdl2_image/include\" -isystem /opt/homebrew/Cellar/sdl2/2.28.5/include/SDL2 -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -Wpedantic --debug -o CMakeFiles/TheGarden.dir/tile_map.cpp.o -c \"/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile_map.cpp\"",
   "file": "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile_map.cpp",
   "output": "CMakeFiles/TheGarden.dir/tile_map.cpp.o"
 }

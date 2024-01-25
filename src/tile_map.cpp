@@ -29,7 +29,7 @@ void TileMap::Init(const TextureManager& textureManager)
 
             m_TileMap[i][j].m_MapPos = vec2<uint16_t>{ uint16_t(j), uint16_t(i) };
             m_TileMap[i][j].m_ScreenPos = vec2<int>{ j * TILE_SCREEN_SIZE, i * TILE_SCREEN_SIZE };
-            m_TileMap[i][j].m_pTexture = textureManager.get("dirt");
+            m_TileMap[i][j].m_Texture = textureManager.get_texture("dirt");
         }
     }
 }
@@ -48,9 +48,12 @@ void TileMap::Render(SDL_Renderer* pRenderer)
             };
 
             // Debug purposes only
-            SDL_RenderCopy(pRenderer, m_TileMap[i][j].m_pTexture, NULL, &rect);
-            //SDL_SetRenderDrawColor(pRenderer, rand() % 255, rand() % 255, rand() % 255, 255);
-            //SDL_RenderFillRect(pRenderer, &rect);
+            SDL_RenderCopy(
+                pRenderer, 
+                m_TileMap[i][j].m_Texture.m_pSpriteSheet, 
+                &m_TileMap[i][j].m_Texture.m_ClipRect,
+                &rect
+            );
         }
     }
 }

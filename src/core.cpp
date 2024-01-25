@@ -52,7 +52,8 @@ bool Core::Init()
     m_pGameData->m_TextureManager = new TextureManager();
 
     // Loading all textures
-    m_pGameData->m_TextureManager->load("dirt", "../res/dirt.png", m_pRenderer);
+    m_pGameData->m_TextureManager->load_spritesheet("tiles", "../res/tiles_spritesheet.png", m_pRenderer);
+    m_pGameData->m_TextureManager->load_texture("dirt", "tiles", { 0, 0, 16, 16 });
 
     m_pGameData->m_TileMap->Init(*m_pGameData->m_TextureManager);
 

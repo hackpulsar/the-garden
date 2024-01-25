@@ -9,7 +9,8 @@ struct vec2
 {
     type x, y;
 
-    // TODO: implement operators
+    bool operator==(const vec2<type>& v) { return (x == v.x && y == v.y); }
+    bool operator!=(const vec2<type>& v) { return !(*this == v); }
 };
 
 }
