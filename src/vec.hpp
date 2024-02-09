@@ -7,10 +7,14 @@ namespace Core
 template <class type>
 struct vec2
 {
-    type x, y;
+    type m_X, m_Y;
 
-    bool operator==(const vec2<type>& v) { return (x == v.x && y == v.y); }
+    vec2() = default;
+    vec2(type x, type y) : m_X(x), m_Y(y) {}
+
+    bool operator==(const vec2<type>& v) { return (m_X == v.m_X && m_Y == v.m_Y); }
     bool operator!=(const vec2<type>& v) { return !(*this == v); }
+
 };
 
 }

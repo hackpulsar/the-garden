@@ -3,6 +3,7 @@
 
 #include "tile_map.h"
 #include "texture_manager.h"
+#include "ecs/entities_manager.h"
 
 namespace Core
 {
@@ -11,11 +12,13 @@ struct GameData
 {
     TileMap* m_TileMap = nullptr;
     TextureManager* m_TextureManager = nullptr;
+    ECS::EntitiesManager* m_EntitiesManager = nullptr;
 
     ~GameData()
     {
         delete m_TileMap;
         delete m_TextureManager;
+        delete m_EntitiesManager;
     }
 };
 

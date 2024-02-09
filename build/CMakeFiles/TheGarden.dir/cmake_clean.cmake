@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TheGarden.dir/core.cpp.o"
   "CMakeFiles/TheGarden.dir/core.cpp.o.d"
+  "CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o"
+  "CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o.d"
+  "CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o"
+  "CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o.d"
   "CMakeFiles/TheGarden.dir/log.cpp.o"
   "CMakeFiles/TheGarden.dir/log.cpp.o.d"
   "CMakeFiles/TheGarden.dir/main.cpp.o"

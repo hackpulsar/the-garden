@@ -31,6 +31,9 @@
 *.out
 *.app
 compile_and_run.sh
+.session.vim
+
+.DS_Store
 
 build/
 .cache/

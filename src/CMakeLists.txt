@@ -9,8 +9,10 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
 
 find_package(SDL2 REQUIRED)
 
-file(GLOB GARDEN_SRC
+file(GLOB SRC
      "*.cpp"
+     "ecs/*.cpp"
+     "ecs/components/*.hpp"
 )
 
 file(GLOB EXTERN_INCLUDE_DIRS
@@ -23,12 +25,11 @@ file(GLOB EXTERN_LIB_DIRS
 
 #message(${EXTERN_INCLUDE_DIRS})
 #message(${EXTERN_LIB_DIRS})
-
-message(${GARDEN_SRC})
+#message(${GARDEN_SRC})
 
 include_directories(${SDL2_INCLUDE_DIRS} ${EXTERN_INCLUDE_DIRS})
 
-add_executable(TheGarden ${GARDEN_SRC})
+add_executable(TheGarden ${SRC})
 
 target_link_directories(TheGarden PUBLIC ${EXTERN_LIB_DIRS})
 target_link_libraries(TheGarden ${SDL2_LIBRARIES} SDL2_image)

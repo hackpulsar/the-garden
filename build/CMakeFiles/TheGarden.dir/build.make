@@ -83,10 +83,38 @@ CMakeFiles/TheGarden.dir/core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheGarden.dir/core.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp" -o CMakeFiles/TheGarden.dir/core.cpp.s
 
+CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o: CMakeFiles/TheGarden.dir/flags.make
+CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/ecs.cpp
+CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o -MF CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o.d -o CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/ecs.cpp"
+
+CMakeFiles/TheGarden.dir/ecs/ecs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TheGarden.dir/ecs/ecs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/ecs.cpp" > CMakeFiles/TheGarden.dir/ecs/ecs.cpp.i
+
+CMakeFiles/TheGarden.dir/ecs/ecs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheGarden.dir/ecs/ecs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/ecs.cpp" -o CMakeFiles/TheGarden.dir/ecs/ecs.cpp.s
+
+CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o: CMakeFiles/TheGarden.dir/flags.make
+CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/entities_manager.cpp
+CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o -MF CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o.d -o CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/entities_manager.cpp"
+
+CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/entities_manager.cpp" > CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.i
+
+CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/entities_manager.cpp" -o CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.s
+
 CMakeFiles/TheGarden.dir/log.cpp.o: CMakeFiles/TheGarden.dir/flags.make
 CMakeFiles/TheGarden.dir/log.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/log.cpp
 CMakeFiles/TheGarden.dir/log.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TheGarden.dir/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TheGarden.dir/log.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/log.cpp.o -MF CMakeFiles/TheGarden.dir/log.cpp.o.d -o CMakeFiles/TheGarden.dir/log.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp"
 
 CMakeFiles/TheGarden.dir/log.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/TheGarden.dir/log.cpp.s: cmake_force
 CMakeFiles/TheGarden.dir/main.cpp.o: CMakeFiles/TheGarden.dir/flags.make
 CMakeFiles/TheGarden.dir/main.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/main.cpp
 CMakeFiles/TheGarden.dir/main.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TheGarden.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TheGarden.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/main.cpp.o -MF CMakeFiles/TheGarden.dir/main.cpp.o.d -o CMakeFiles/TheGarden.dir/main.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp"
 
 CMakeFiles/TheGarden.dir/main.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/TheGarden.dir/main.cpp.s: cmake_force
 CMakeFiles/TheGarden.dir/texture_manager.cpp.o: CMakeFiles/TheGarden.dir/flags.make
 CMakeFiles/TheGarden.dir/texture_manager.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/texture_manager.cpp
 CMakeFiles/TheGarden.dir/texture_manager.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TheGarden.dir/texture_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TheGarden.dir/texture_manager.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/texture_manager.cpp.o -MF CMakeFiles/TheGarden.dir/texture_manager.cpp.o.d -o CMakeFiles/TheGarden.dir/texture_manager.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp"
 
 CMakeFiles/TheGarden.dir/texture_manager.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/TheGarden.dir/texture_manager.cpp.s: cmake_force
 CMakeFiles/TheGarden.dir/tile_map.cpp.o: CMakeFiles/TheGarden.dir/flags.make
 CMakeFiles/TheGarden.dir/tile_map.cpp.o: /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/tile_map.cpp
 CMakeFiles/TheGarden.dir/tile_map.cpp.o: CMakeFiles/TheGarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TheGarden.dir/tile_map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TheGarden.dir/tile_map.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TheGarden.dir/tile_map.cpp.o -MF CMakeFiles/TheGarden.dir/tile_map.cpp.o.d -o CMakeFiles/TheGarden.dir/tile_map.cpp.o -c "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/tile_map.cpp"
 
 CMakeFiles/TheGarden.dir/tile_map.cpp.i: cmake_force
@@ -142,6 +170,8 @@ CMakeFiles/TheGarden.dir/tile_map.cpp.s: cmake_force
 # Object files for target TheGarden
 TheGarden_OBJECTS = \
 "CMakeFiles/TheGarden.dir/core.cpp.o" \
+"CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o" \
+"CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o" \
 "CMakeFiles/TheGarden.dir/log.cpp.o" \
 "CMakeFiles/TheGarden.dir/main.cpp.o" \
 "CMakeFiles/TheGarden.dir/texture_manager.cpp.o" \
@@ -151,6 +181,8 @@ TheGarden_OBJECTS = \
 TheGarden_EXTERNAL_OBJECTS =
 
 TheGarden: CMakeFiles/TheGarden.dir/core.cpp.o
+TheGarden: CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o
+TheGarden: CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o
 TheGarden: CMakeFiles/TheGarden.dir/log.cpp.o
 TheGarden: CMakeFiles/TheGarden.dir/main.cpp.o
 TheGarden: CMakeFiles/TheGarden.dir/texture_manager.cpp.o
@@ -158,7 +190,7 @@ TheGarden: CMakeFiles/TheGarden.dir/tile_map.cpp.o
 TheGarden: CMakeFiles/TheGarden.dir/build.make
 TheGarden: /opt/homebrew/Cellar/sdl2/2.28.5/lib/libSDL2.dylib
 TheGarden: CMakeFiles/TheGarden.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TheGarden"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TheGarden"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TheGarden.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -808,4 +808,7 @@ CMakeFiles/TheGarden.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/texture.hpp \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/tile.h \
-  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/vec.hpp
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/vec.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/entities_manager.h \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/ecs.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset

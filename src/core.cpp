@@ -6,6 +6,8 @@
 #include "definitions.hpp"
 #include "ticks_management.hpp"
 
+#include "ecs/components/RenderComponent.hpp"
+
 namespace Core
 {
 
@@ -50,12 +52,19 @@ bool Core::Init()
 
     m_pGameData->m_TileMap = new TileMap();
     m_pGameData->m_TextureManager = new TextureManager();
+    m_pGameData->m_EntitiesManager = new ECS::EntitiesManager();
 
     // Loading all textures
     m_pGameData->m_TextureManager->load_spritesheet("tiles", "../res/tiles_spritesheet.png", m_pRenderer);
     m_pGameData->m_TextureManager->load_texture("dirt", "tiles", { 0, 0, 16, 16 });
+    m_pGameData->m_TextureManager->load_texture("grass", "tiles", { 16, 0, 16, 16 });
+    m_pGameData->m_TextureManager->load_texture("ground", "tiles", { 32, 0, 16, 16 });
 
     m_pGameData->m_TileMap->Init(*m_pGameData->m_TextureManager);
+
+    m_Player = &m_pGameData->m_EntitiesManager->AddEntity();
+    m_Player->addComponent<ECS::PositionComponent>(vec2<float>{ 100.f, 100.f });
+    m_Player->addComponent<ECS::RenderComponent>(*m_pGameData->m_TextureManager, "dirt");
 
     return true;
 }
@@ -95,6 +104,8 @@ void Core::HandleInput()
 
 void Core::Update()
 {
+    m_pGameData->m_EntitiesManager->Update();
+    m_pGameData->m_EntitiesManager->Refresh();
 }
 
 void Core::Render()
@@ -103,6 +114,7 @@ void Core::Render()
     SDL_RenderClear(m_pRenderer);
 
     m_pGameData->m_TileMap->Render(m_pRenderer);
+    m_pGameData->m_EntitiesManager->Render(m_pRenderer);
 
     SDL_RenderPresent(m_pRenderer);
 }

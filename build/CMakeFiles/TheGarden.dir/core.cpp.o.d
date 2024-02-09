@@ -809,6 +809,18 @@ CMakeFiles/TheGarden.dir/core.cpp.o: \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/texture.hpp \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/tile.h \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/vec.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/entities_manager.h \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/ecs.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/log.h \
   /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/definitions.hpp \
-  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ticks_management.hpp
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ticks_management.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/RenderComponent.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/../ecs.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/../../texture.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/../../texture_manager.h \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/PositionComponent.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/../../vec.hpp \
+  /Users/hackpulsar/Documents/Code/C++\ Projects/the-garden/src/ecs/components/../../definitions.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/assert.h

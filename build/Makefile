@@ -153,6 +153,54 @@ core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/core.cpp.s
 .PHONY : core.cpp.s
 
+ecs/ecs.o: ecs/ecs.cpp.o
+.PHONY : ecs/ecs.o
+
+# target to build an object file
+ecs/ecs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o
+.PHONY : ecs/ecs.cpp.o
+
+ecs/ecs.i: ecs/ecs.cpp.i
+.PHONY : ecs/ecs.i
+
+# target to preprocess a source file
+ecs/ecs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/ecs.cpp.i
+.PHONY : ecs/ecs.cpp.i
+
+ecs/ecs.s: ecs/ecs.cpp.s
+.PHONY : ecs/ecs.s
+
+# target to generate assembly for a file
+ecs/ecs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/ecs.cpp.s
+.PHONY : ecs/ecs.cpp.s
+
+ecs/entities_manager.o: ecs/entities_manager.cpp.o
+.PHONY : ecs/entities_manager.o
+
+# target to build an object file
+ecs/entities_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o
+.PHONY : ecs/entities_manager.cpp.o
+
+ecs/entities_manager.i: ecs/entities_manager.cpp.i
+.PHONY : ecs/entities_manager.i
+
+# target to preprocess a source file
+ecs/entities_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.i
+.PHONY : ecs/entities_manager.cpp.i
+
+ecs/entities_manager.s: ecs/entities_manager.cpp.s
+.PHONY : ecs/entities_manager.s
+
+# target to generate assembly for a file
+ecs/entities_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheGarden.dir/build.make CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.s
+.PHONY : ecs/entities_manager.cpp.s
+
 log.o: log.cpp.o
 .PHONY : log.o
 
@@ -261,6 +309,12 @@ help:
 	@echo "... core.o"
 	@echo "... core.i"
 	@echo "... core.s"
+	@echo "... ecs/ecs.o"
+	@echo "... ecs/ecs.i"
+	@echo "... ecs/ecs.s"
+	@echo "... ecs/entities_manager.o"
+	@echo "... ecs/entities_manager.i"
+	@echo "... ecs/entities_manager.s"
 	@echo "... log.o"
 	@echo "... log.i"
 	@echo "... log.s"

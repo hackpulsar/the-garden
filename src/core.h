@@ -28,6 +28,7 @@ private:
     bool m_bRunning;
 
     std::shared_ptr<GameData> m_pGameData;
+    ECS::Entity* m_Player = nullptr;
 
 };
 

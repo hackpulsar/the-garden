@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/core.cpp" "CMakeFiles/TheGarden.dir/core.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/core.cpp.o.d"
+  "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/ecs.cpp" "CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/ecs/ecs.cpp.o.d"
+  "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/ecs/entities_manager.cpp" "CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/ecs/entities_manager.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/log.cpp" "CMakeFiles/TheGarden.dir/log.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/log.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/main.cpp" "CMakeFiles/TheGarden.dir/main.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/main.cpp.o.d"
   "/Users/hackpulsar/Documents/Code/C++ Projects/the-garden/src/texture_manager.cpp" "CMakeFiles/TheGarden.dir/texture_manager.cpp.o" "gcc" "CMakeFiles/TheGarden.dir/texture_manager.cpp.o.d"

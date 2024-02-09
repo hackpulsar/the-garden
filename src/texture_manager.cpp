@@ -14,7 +14,7 @@ void Core::TextureManager::load_spritesheet(const std::string& sKey, const std::
 
 void Core::TextureManager::load_texture(const std::string& sKey, const std::string& sSpritesheetKey, SDL_Rect clip)
 {
-    m_TexturesRects[sKey] = { this->get_spritesheet(sSpritesheetKey), clip };
+    m_Textures[sKey] = { this->get_spritesheet(sSpritesheetKey), clip };
 }
 
 SDL_Texture* Core::TextureManager::get_spritesheet(const std::string& sKey) const
@@ -24,7 +24,7 @@ SDL_Texture* Core::TextureManager::get_spritesheet(const std::string& sKey) cons
 
 Core::Texture Core::TextureManager::get_texture(const std::string& sKey) const
 {
-    return m_TexturesRects.at(sKey);
+    return m_Textures.at(sKey);
 }
 
 Core::TextureManager::~TextureManager()
