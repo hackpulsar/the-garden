@@ -35,5 +35,8 @@ compile_and_run.sh
 
 .DS_Store
 
-build/
-.cache/
+build/*
+.cache/*
+
+build
+.cache
