@@ -1,7 +1,7 @@
 #ifndef TEXTURE_HPP
 #define TEXTURE_HPP
 
-#include <SDL_render.h>
+#include <SDL2/SDL_render.h>
 
 namespace Core
 {
